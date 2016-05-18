@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F13A66DA1CEC8A1A00353D4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A66D91CEC8A1A00353D4A /* AppDelegate.swift */; };
+		F13A66DC1CEC8A1A00353D4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A66DB1CEC8A1A00353D4A /* ViewController.swift */; };
+		F13A66DF1CEC8A1B00353D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13A66DD1CEC8A1B00353D4A /* Main.storyboard */; };
+		F13A66E21CEC8A1B00353D4A /* fishescape.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F13A66E01CEC8A1B00353D4A /* fishescape.xcdatamodeld */; };
+		F13A66E41CEC8A1B00353D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13A66E31CEC8A1B00353D4A /* Assets.xcassets */; };
+		F13A66E71CEC8A1B00353D4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13A66E51CEC8A1B00353D4A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F13A66D61CEC8A1A00353D4A /* fishescape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fishescape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13A66D91CEC8A1A00353D4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F13A66DB1CEC8A1A00353D4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F13A66DE1CEC8A1B00353D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F13A66E11CEC8A1B00353D4A /* fishescape.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fishescape.xcdatamodel; sourceTree = "<group>"; };
+		F13A66E31CEC8A1B00353D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F13A66E61CEC8A1B00353D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F13A66E81CEC8A1B00353D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F13A66D31CEC8A1A00353D4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F13A66CD1CEC8A1A00353D4A = {
+			isa = PBXGroup;
+			children = (
+				F13A66D81CEC8A1A00353D4A /* fishescape */,
+				F13A66D71CEC8A1A00353D4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F13A66D71CEC8A1A00353D4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F13A66D61CEC8A1A00353D4A /* fishescape.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F13A66D81CEC8A1A00353D4A /* fishescape */ = {
+			isa = PBXGroup;
+			children = (
+				F13A66D91CEC8A1A00353D4A /* AppDelegate.swift */,
+				F13A66DB1CEC8A1A00353D4A /* ViewController.swift */,
+				F13A66DD1CEC8A1B00353D4A /* Main.storyboard */,
+				F13A66E31CEC8A1B00353D4A /* Assets.xcassets */,
+				F13A66E51CEC8A1B00353D4A /* LaunchScreen.storyboard */,
+				F13A66E81CEC8A1B00353D4A /* Info.plist */,
+				F13A66E01CEC8A1B00353D4A /* fishescape.xcdatamodeld */,
+			);
+			path = fishescape;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F13A66D51CEC8A1A00353D4A /* fishescape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13A66EB1CEC8A1B00353D4A /* Build configuration list for PBXNativeTarget "fishescape" */;
+			buildPhases = (
+				F13A66D21CEC8A1A00353D4A /* Sources */,
+				F13A66D31CEC8A1A00353D4A /* Frameworks */,
+				F13A66D41CEC8A1A00353D4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fishescape;
+			productName = fishescape;
+			productReference = F13A66D61CEC8A1A00353D4A /* fishescape.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F13A66CE1CEC8A1A00353D4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "新井山詠斗";
+				TargetAttributes = {
+					F13A66D51CEC8A1A00353D4A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W92SXP54MW;
+					};
+				};
+			};
+			buildConfigurationList = F13A66D11CEC8A1A00353D4A /* Build configuration list for PBXProject "fishescape" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F13A66CD1CEC8A1A00353D4A;
+			productRefGroup = F13A66D71CEC8A1A00353D4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F13A66D51CEC8A1A00353D4A /* fishescape */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F13A66D41CEC8A1A00353D4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13A66E71CEC8A1B00353D4A /* LaunchScreen.storyboard in Resources */,
+				F13A66E41CEC8A1B00353D4A /* Assets.xcassets in Resources */,
+				F13A66DF1CEC8A1B00353D4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F13A66D21CEC8A1A00353D4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13A66E21CEC8A1B00353D4A /* fishescape.xcdatamodeld in Sources */,
+				F13A66DC1CEC8A1A00353D4A /* ViewController.swift in Sources */,
+				F13A66DA1CEC8A1A00353D4A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F13A66DD1CEC8A1B00353D4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13A66DE1CEC8A1B00353D4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F13A66E51CEC8A1B00353D4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13A66E61CEC8A1B00353D4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F13A66E91CEC8A1B00353D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F13A66EA1CEC8A1B00353D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F13A66EC1CEC8A1B00353D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fishescape/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mac.fishescape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F13A66ED1CEC8A1B00353D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fishescape/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mac.fishescape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F13A66D11CEC8A1A00353D4A /* Build configuration list for PBXProject "fishescape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13A66E91CEC8A1B00353D4A /* Debug */,
+				F13A66EA1CEC8A1B00353D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13A66EB1CEC8A1B00353D4A /* Build configuration list for PBXNativeTarget "fishescape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13A66EC1CEC8A1B00353D4A /* Debug */,
+				F13A66ED1CEC8A1B00353D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F13A66E01CEC8A1B00353D4A /* fishescape.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F13A66E11CEC8A1B00353D4A /* fishescape.xcdatamodel */,
+			);
+			currentVersion = F13A66E11CEC8A1B00353D4A /* fishescape.xcdatamodel */;
+			path = fishescape.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F13A66CE1CEC8A1A00353D4A /* Project object */;
+}
