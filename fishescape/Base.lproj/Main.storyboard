@@ -13,15 +13,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ホークアイ.png" id="lR0-LB-l3u">
-                                <rect key="frame" x="108" y="242" width="105" height="84"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iwasi.png" id="zNh-rf-lMV">
+                                <rect key="frame" x="113" y="75" width="95" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="little" destination="lR0-LB-l3u" id="Bjo-hD-NY3"/>
+                        <outlet property="mainfish" destination="zNh-rf-lMV" id="Q9x-fW-yR8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -30,6 +30,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ホークアイ.png" width="675" height="379"/>
+        <image name="iwasi.png" width="800" height="567"/>
     </resources>
 </document>

@@ -11,11 +11,10 @@ import CoreMotion
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var little: UIImageView!
+
+    @IBOutlet weak var mainfish: UIImageView!
     let motionManager = CMMotionManager()
-    
-    
-    
+//    @IBOutlet var littlefish: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         let width = self.view.frame.size.width
@@ -25,42 +24,74 @@ class ViewController: UIViewController {
         motionManager.startDeviceMotionUpdatesToQueue(NSOperationQueue.mainQueue(), withHandler:
             {
                 (deviceMotion:CMDeviceMotion?,error:NSError?) in
-                let fromX = self.little.center.x
-                let fromY = self.little.center.y
+                let fromX = self.mainfish.center.x
+                let fromY = self.mainfish.center.y
                 
-                if (fromX < 0){
+        //画面外に出さない
+                
+                if (fromX < 15 ){
+                    //左端に来てる時
+                    let xAngle = 180 * deviceMotion!.attitude.roll / M_PI//x方向の傾き具合
+                    let yAngle = 180 * deviceMotion!.attitude.pitch / M_PI//y方向の傾き具合
+                    let lenX = CGFloat(xAngle)
+                    
+                    if lenX > 0{
+                        let lenY = CGFloat(yAngle)
+                        let toX = fromX + lenX
+                        let toY = fromY + lenY
+                        self.mainfish.center = CGPointMake(toX, toY)
+                    }
+                    
+                }else if(fromX > width - 15){
+                    //右に来た時
                     let xAngle = 180 * deviceMotion!.attitude.roll / M_PI
                     let yAngle = 180 * deviceMotion!.attitude.pitch / M_PI
                     let lenX = CGFloat(xAngle)
-                    if lenX > 0{
+                    
+                    if lenX < 0 {
                         let lenY = CGFloat(yAngle)
-                        var toX = fromX + lenX
-                        var toY = fromY + lenY
-                        self.little.center = CGPointMake(toX, toY)
+                        let toX = fromX + lenX
+                        let toY = fromY + lenY
+                        self.mainfish.center = CGPointMake(toX, toY)
                     }
+                    
+                }else if(fromY < 15){
+                    //上に来てる時
+                    let xAngle = 180 * deviceMotion!.attitude.roll / M_PI
+                    let yAngle = 180 * deviceMotion!.attitude.pitch / M_PI
+                    let lenY = CGFloat(yAngle)
+                    
+                    if lenY > 0 {
+                        let lenX = CGFloat(xAngle)
+                        let toX = fromX + lenX
+                        let toY = fromY + lenY
+                        self.mainfish.center = CGPointMake(toX, toY)
+                    }
+                    
+                }else if(fromY > height - 15){
+                    //下に来てる時
+                    let xAngle = 180 * deviceMotion!.attitude.roll / M_PI
+                    let yAngle = 180 * deviceMotion!.attitude.pitch / M_PI
+                    let lenY = CGFloat(yAngle)
+                    
+                    if lenY < 0 {
+                        let lenX = CGFloat(xAngle)
+                        let toX = fromX + lenX
+                        let toY = fromY + lenY
+                        self.mainfish.center = CGPointMake(toX, toY)
+                    }
+                    
                 }else{
+                    //端っこじゃない時
                     let xAngle = 180 * deviceMotion!.attitude.roll / M_PI
                     let yAngle = 180 * deviceMotion!.attitude.pitch / M_PI
                     let lenX = CGFloat(xAngle)
                     let lenY = CGFloat(yAngle)
                     
-                    var toX = fromX + lenX
-                    var toY = fromY + lenY
-                    self.little.center = CGPointMake(toX, toY)
+                    let toX = fromX + lenX
+                    let toY = fromY + lenY
+                    self.mainfish.center = CGPointMake(toX, toY)
                 }
-            
-                if (fromX > width){
-                    let xAngle = 180 * deviceMotion!.attitude.roll / M_PI
-                    let yAngle = 180 * deviceMotion!.attitude.pitch / M_PI
-                    let lenX = CGFloat(xAngle)
-                    if lenX < 0{
-                        let lenY = CGFloat(yAngle)
-                        var toX = fromX + lenX
-                        var toY = fromY + lenY
-                        self.little.center = CGPointMake(toX, toY)
-                    }
-                }
-                
             }
         )
     }
