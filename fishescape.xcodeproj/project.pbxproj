@@ -7,20 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F10D0E201CFEEB00002E672D /* ホークアイ.png in Resources */ = {isa = PBXBuildFile; fileRef = F10D0E1F1CFEEB00002E672D /* ホークアイ.png */; };
 		F13A66DA1CEC8A1A00353D4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A66D91CEC8A1A00353D4A /* AppDelegate.swift */; };
 		F13A66DC1CEC8A1A00353D4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A66DB1CEC8A1A00353D4A /* ViewController.swift */; };
 		F13A66DF1CEC8A1B00353D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13A66DD1CEC8A1B00353D4A /* Main.storyboard */; };
 		F13A66E21CEC8A1B00353D4A /* fishescape.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F13A66E01CEC8A1B00353D4A /* fishescape.xcdatamodeld */; };
 		F13A66E41CEC8A1B00353D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13A66E31CEC8A1B00353D4A /* Assets.xcassets */; };
 		F13A66E71CEC8A1B00353D4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13A66E51CEC8A1B00353D4A /* LaunchScreen.storyboard */; };
-		F1D17A581D0823C800FA93DA /* ボール.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F1D17A571D0823C800FA93DA /* ボール.jpeg */; };
 		F1D17A5A1D082E2000FA93DA /* iwasi.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D17A591D082E2000FA93DA /* iwasi.png */; };
 		F1D5D83F1D08374D00D3DC5F /* iwasi のコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D5D83E1D08374D00D3DC5F /* iwasi のコピー.png */; };
+		F1F048E71D1A9EB700A5A5FA /* katuo.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F048E61D1A9EB700A5A5FA /* katuo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F10D0E1F1CFEEB00002E672D /* ホークアイ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ホークアイ.png"; sourceTree = "<group>"; };
 		F13A66D61CEC8A1A00353D4A /* fishescape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fishescape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13A66D91CEC8A1A00353D4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F13A66DB1CEC8A1A00353D4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,9 +27,9 @@
 		F13A66E31CEC8A1B00353D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F13A66E61CEC8A1B00353D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F13A66E81CEC8A1B00353D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1D17A571D0823C800FA93DA /* ボール.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ボール.jpeg"; sourceTree = "<group>"; };
 		F1D17A591D082E2000FA93DA /* iwasi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iwasi.png; sourceTree = "<group>"; };
 		F1D5D83E1D08374D00D3DC5F /* iwasi のコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iwasi のコピー.png"; sourceTree = "<group>"; };
+		F1F048E61D1A9EB700A5A5FA /* katuo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = katuo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,10 +46,9 @@
 		F13A66CD1CEC8A1A00353D4A = {
 			isa = PBXGroup;
 			children = (
+				F1F048E61D1A9EB700A5A5FA /* katuo.png */,
 				F1D5D83E1D08374D00D3DC5F /* iwasi のコピー.png */,
 				F1D17A591D082E2000FA93DA /* iwasi.png */,
-				F1D17A571D0823C800FA93DA /* ボール.jpeg */,
-				F10D0E1F1CFEEB00002E672D /* ホークアイ.png */,
 				F13A66D81CEC8A1A00353D4A /* fishescape */,
 				F13A66D71CEC8A1A00353D4A /* Products */,
 			);
@@ -138,12 +135,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F10D0E201CFEEB00002E672D /* ホークアイ.png in Resources */,
+				F1F048E71D1A9EB700A5A5FA /* katuo.png in Resources */,
 				F13A66E71CEC8A1B00353D4A /* LaunchScreen.storyboard in Resources */,
 				F1D5D83F1D08374D00D3DC5F /* iwasi のコピー.png in Resources */,
 				F13A66E41CEC8A1B00353D4A /* Assets.xcassets in Resources */,
 				F13A66DF1CEC8A1B00353D4A /* Main.storyboard in Resources */,
-				F1D17A581D0823C800FA93DA /* ボール.jpeg in Resources */,
 				F1D17A5A1D082E2000FA93DA /* iwasi.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
